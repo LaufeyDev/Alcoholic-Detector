@@ -14,12 +14,12 @@ void loop()
   Serial.println(ALCOHOL_detected);  
   if (ALCOHOL_detected == 1)  
   {  
-    Serial.println("ALCOHOL detected...");  
+    Serial.println("ALCOHOL detected");  
     digitalWrite(LED, HIGH);  
   } 
   else  
   {  
-    Serial.println("No ALCOHOL detected ");  
+    Serial.println("No ALCOHOL detected");  
     digitalWrite(LED, LOW);  
   }  
 }  
